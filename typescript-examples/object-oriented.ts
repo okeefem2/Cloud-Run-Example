@@ -67,6 +67,7 @@ const Person = (name) => {
 }
 
 // THis is not as readable as classes... but TS has some support for this!
+// https://www.typescriptlang.org/docs/handbook/mixins.html
 
 function applyMixins(derivedCtor: any, baseCtors: any[]) {
     baseCtors.forEach(baseCtor => {
